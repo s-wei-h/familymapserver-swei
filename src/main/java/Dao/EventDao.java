@@ -1,5 +1,9 @@
 package Dao;
 
+import Model.Event;
+
+import java.sql.Connection;
+
 public class EventDao {
     private final Connection conn;
 
