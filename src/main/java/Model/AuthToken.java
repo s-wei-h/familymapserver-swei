@@ -3,13 +3,26 @@ package Model;
 public class AuthToken {
     /**
      * authtokenStr holds the string of the auth token
+     * username is the User object is connected with the token
      */
     private String authtokenStr;
     private String username;
 
-    public AuthToken(String authtokenStr, String username) {
-        this.authtokenStr = authtokenStr;
+    /**
+     * create an auth token object
+     * @param username
+     */
+    public AuthToken(String username) {
+        this.authtokenStr = createToken();
         this.username = username;
+    }
+
+    /**
+     * generate an auth token
+     * @return String with authtoeknStr
+     */
+    public String createToken() {
+        return null;
     }
 
     public String getAuthtokenStr() {return authtokenStr;}
