@@ -40,6 +40,9 @@ public class FillService {
 
             //generate tree
 
+
+            FillResult result = new FillResult("error message", false);
+            return result;
         } catch (Exception ex) {
             ex.printStackTrace();
             // Close database connection, ROLLBACK transaction

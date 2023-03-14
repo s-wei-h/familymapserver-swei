@@ -19,9 +19,22 @@ public class RegisterService {
         try {
             // Open database connection
             db.openConnection();
-            // Use DAOs to do requested operation
+
+            //check if username already exists
+            UserDao uDao = new UserDao(db.getConnection());
+            if(uDao.find(request.getUsername()) != null) {
+                db.closeConnection(false);
+                // Create and return FAILURE Result object
+                RegisterResult result = new RegisterResult(false, "username already exists");
+                return result;
+            }
+
+            // Use DAOs to make new user
             User newUser = new User(util.createID(), request.getUsername(), request.getPassword(), request.getEmail(), request.getFirstName(), request.getLastName(), request.getGender());
             new UserDao(db.getConnection()).insert(newUser);
+
+            //generate 4 generations of ancestor data
+
             // Close database connection, COMMIT transaction
             db.closeConnection(true);
             // Create and return SUCCESS Result object

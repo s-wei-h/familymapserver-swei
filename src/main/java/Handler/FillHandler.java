@@ -38,7 +38,7 @@ public class FillHandler implements HttpHandler {
                 Gson gson = new Gson();
 
                 FillService service = new FillService();
-                FillResult result = service.fill(request);
+                FillResult result = service.fill(username, generations);
 
                 exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
                 Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
