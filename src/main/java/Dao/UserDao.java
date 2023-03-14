@@ -17,7 +17,7 @@ public class UserDao {
 
     /**
      * add user object into the database
-     * @param user
+     * @param user - User object to add into database
      */
     public void insert(User user) throws DataAccessException {
         String sql = "INSERT INTO Users (Username, Password, Email, FirstName," +
@@ -40,8 +40,8 @@ public class UserDao {
 
     /**
      * find user from database with username
-     * @param username
-     * @return event
+     * @param username - String username to search in database
+     * @return event - return event associated with user
      */
     public User find(String username) throws DataAccessException {
         User user;

@@ -1,42 +1,56 @@
 package Model;
 
 import java.util.Objects;
+import java.util.UUID;
 
 public class Event {
     /**
      * eventID = identifier for the event object
-     * associatedusername = connection to an User object
-     * personID = id of related PersonID
-     * latitude, longitude, country, city = location of event
-     * eventType = information on event
-     * year = when the event happened
      */
     private String eventID;
     /**
-     * associatedusername = connection to an User object
+     * associatedusername = connection to a User object
      */
     private String associatedUsername;
     /**
      * personID = id of related PersonID
      */
     private String personID;
+    /**
+     * latitude - location of event
+     */
     private float latitude;
+    /**
+     * longitude - location of event
+     */
     private float longitude;
+    /**
+     * country - location of event
+     */
     private String country;
+    /**
+     * city - location of event
+     */
     private String city;
+    /**
+     * eventType - the type of event (e.g. birth, marriage, etc)
+     */
     private String eventType;
+    /**
+     * year - when the event occurred
+     */
     private int year;
 
     /**
      * contructor for event
-     * @param associatedUsername
-     * @param personID
-     * @param latitude
-     * @param longitude
-     * @param country
-     * @param city
-     * @param eventType
-     * @param year
+     * @param associatedUsername - connection to a User object
+     * @param personID - id of related PersonID
+     * @param latitude - location of event
+     * @param longitude - location of event
+     * @param country - location of event
+     * @param city - location of event
+     * @param eventType - the type of event (e.g. birth, marriage, etc)
+     * @param year - when the event occurred
      */
     public Event(String eventID,String associatedUsername, String personID, float latitude, float longitude, String country, String city, String eventType, int year) {
         this.eventID = eventID;
@@ -48,9 +62,6 @@ public class Event {
         this.city = city;
         this.eventType = eventType;
         this.year = year;
-    }
-    public String createID() {
-        return null;
     }
 
     public String getEventID() { return eventID; }

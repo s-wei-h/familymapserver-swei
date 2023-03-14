@@ -19,7 +19,6 @@ public class LoadRequest {
     Event[] events;
 
     /**
-     *
      * @param users - json array of user objects
      * @param persons - json array of persons objects
      * @param events - json array of events objects

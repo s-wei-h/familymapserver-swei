@@ -1,33 +1,47 @@
 package Model;
 
 import java.util.Objects;
+import java.util.UUID;
 
 public class User {
     /**
      * username = string id for user object
-     * password = password for user to login
-     * email = email for user
-     * firstname, lastname = name of user
-     * gender = can only be f or m
-     * personID = ID of person object for the user
      */
     private String username;
+    /**
+     * password = password for user to login
+     */
     private String password;
+    /**
+     * email = email for user
+     */
     private String email;
+    /**
+     * firstName = first name of user
+     */
     private String firstName;
+    /**
+     * lastName = last name of user
+     */
     private String lastName;
+    /**
+     * gender = can only be f or m
+     */
     private String gender;
+    /**
+     * personID = ID of person object for the user
+     */
     private String personID;
 
     /**
      * constructor for User object
-     * @param username
-     * @param password
-     * @param email
-     * @param firstName
-     * @param lastName
-     * @param gender
-     * @param personID
+     * @param username - string id for user object
+     * @param password - password for user to login
+     * @param email - email for user
+     * @param firstName - first name of user
+     * @param lastName - last name of user
+     * @param gender - can only be f or m
+     * @param personID - ID of person object for the user
      */
     public User(String username, String password, String email, String firstName, String lastName, String gender, String personID) {
         this.username = username;
@@ -35,9 +49,7 @@ public class User {
         this.email = email;
         this.firstName = firstName;
         this.lastName = lastName;
-        if(gender == "f" || gender == "m") {
-            this.gender = gender;
-        }
+        this.gender = gender;
         this.personID = createUserPerson(personID, username, firstName, lastName, gender).getPersonID();
     }
 
@@ -50,7 +62,7 @@ public class User {
      * @return Person - person object
      */
     public Person createUserPerson(String personID, String associatedUsername, String firstName, String lastName, String gender) {
-        Person userPerson = new Person(personID,associatedUsername, firstName, lastName, gender, null, null, null);
+        Person userPerson = new Person(personID, associatedUsername, firstName, lastName, gender, null, null, null);
         return userPerson;
     }
 

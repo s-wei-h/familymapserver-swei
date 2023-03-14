@@ -10,6 +10,10 @@ public class FillResult {
      */
     private boolean success;
 
+    /**
+     * @param message - message regarding fill success. If failed, explains why
+     * @param success - if fill was successful or not
+     */
     public FillResult(String message, boolean success) {
         this.message = message;
         this.success = success;

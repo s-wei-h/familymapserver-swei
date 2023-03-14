@@ -1,33 +1,36 @@
 package Model;
 
+import java.util.UUID;
+
 public class AuthToken {
     /**
      * authtokenStr holds the string of the auth token
      * username is the User object is connected with the token
      */
-    private String authtokenStr;
+    private String authToken;
     private String username;
 
     /**
      * create an auth token object
-     * @param username
+     * @param username - String username with user associated with AuthToken
      */
-    public AuthToken(String username) {
-        this.authtokenStr = createToken();
+    public AuthToken(String authToken,String username) {
+        this.authToken = authToken;
         this.username = username;
     }
 
     /**
      * generate an auth token
-     * @return String with authtoeknStr
+     * @return String with authtokenStr
      */
     public String createToken() {
-        return null;
+        UUID uuid = UUID.randomUUID();
+        return uuid.toString();
     }
 
-    public String getAuthtokenStr() {return authtokenStr;}
+    public String getAuthtoken() {return authToken;}
 
-    public void setAuthtokenStr(String authtokenStr) {this.authtokenStr = authtokenStr;}
+    public void setAuthtoken(String authToken) {this.authToken = authToken;}
 
     public String getUsername() {return username;}
 

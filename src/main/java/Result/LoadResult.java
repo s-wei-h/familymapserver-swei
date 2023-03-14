@@ -11,7 +11,6 @@ public class LoadResult {
     private boolean success;
 
     /**
-     *
      * @param message - message regarding load success. If failed, explains why
      * @param success - if load was successful or not
      */

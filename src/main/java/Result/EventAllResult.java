@@ -12,17 +12,23 @@ public class EventAllResult {
      */
     private boolean success;
     /**
-     * if event search failed, why
+     * message = if event search failed, why
      */
     private String message;
 
-    public EventAllResult(Event[] data, boolean success, String message) {
+    /**
+     *
+     * @param data - json array of event objects for all family members of current user
+     * @param success - if events were successfully found
+     * @param message - if event search failed, why
+     */
+    public EventAllResult(Event[] data, boolean success) {
         this.success = success;
-        if(success) {
-            this.data = data;
-        }
-        else {
-            this.message = message;
-        }
+        this.data = data;
+    }
+
+    public EventAllResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 }

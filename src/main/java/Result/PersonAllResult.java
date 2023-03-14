@@ -17,19 +17,17 @@ public class PersonAllResult {
     private String message;
 
     /**
-     *
      * @param data - json array of Person objects related to current user
      * @param success - if all family members were successfully returned
-     * @param message - if failed, why
      */
-    public PersonAllResult(Person[] data, boolean success, String message) {
+    public PersonAllResult(Person[] data, boolean success) {
         this.success = success;
-        if(success) {
-            this.data = data;
-        }
-        else {
-            this.message = message;
-        }
+        this.data = data;
+    }
+
+    public PersonAllResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 
 }

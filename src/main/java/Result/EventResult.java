@@ -60,21 +60,21 @@ public class EventResult {
      * @param success - if the event search was successful or not
      * @param message - if event search failed, why
      */
-    public EventResult(String associatedUsername, String eventID, String personID, float latitude, float longitude, String country, String city, String eventType, int year, boolean success, String message) {
+    public EventResult(String associatedUsername, String eventID, String personID, float latitude, float longitude, String country, String city, String eventType, int year, boolean success) {
         this.success = success;
-        if(success) {
-            this.associatedUsername = associatedUsername;
-            this.eventID = eventID;
-            this.personID = personID;
-            this.latitude = latitude;
-            this.longitude = longitude;
-            this.country = country;
-            this.city = city;
-            this.eventType = eventType;
-            this.year = year;
-        }
-        else {
-            this.message = message;
-        }
+        this.associatedUsername = associatedUsername;
+        this.eventID = eventID;
+        this.personID = personID;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.country = country;
+        this.city = city;
+        this.eventType = eventType;
+        this.year = year;
+    }
+
+    public EventResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 }

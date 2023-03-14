@@ -28,23 +28,21 @@ public class LoginResult {
     private String message;
 
     /**
-     *
      * @param authtoken - authorization string created after login
      * @param username - account username for login
      * @param personID - personID associated with account
      * @param success - if user was properly logged in
      * @param message - if login fails, return error why
      */
-    public LoginResult(String authtoken, String username, String personID, boolean success, String message) {
+    public LoginResult(String authtoken, String username, String personID, boolean success) {
         this.success = success;
+        this.authtoken = authtoken;
+        this.username = username;
+        this.personID = personID;
+    }
 
-        if(success) {
-            this.authtoken = authtoken;
-            this.username = username;
-            this.personID = personID;
-        }
-        else {
-            this.message = message;
-        }
+    public LoginResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 }

@@ -53,22 +53,25 @@ public class PersonResult {
      * @param motherID - (optional) personID of the person's mother
      * @param spouseID - (optional) personID of the person's spouse
      * @param success - if person was found
-     * @param message - if the person search failed, why
      */
-    public PersonResult(String associatedUsername, String personID, String firstName, String lastName, String gender, String fatherID, String motherID, String spouseID, boolean success, String message) {
+    public PersonResult(String associatedUsername, String personID, String firstName, String lastName, String gender, String fatherID, String motherID, String spouseID, boolean success) {
         this.success = success;
-        if(success) {
-            this.associatedUsername = associatedUsername;
-            this.personID = personID;
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.gender = gender;
-            this.fatherID = fatherID;
-            this.motherID = motherID;
-            this.spouseID = spouseID;
-        }
-        else {
-            this.message = message;
-        }
+        this.associatedUsername = associatedUsername;
+        this.personID = personID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gender = gender;
+        this.fatherID = fatherID;
+        this.motherID = motherID;
+        this.spouseID = spouseID;
+    }
+
+    /**
+     * @param success - if person was found
+     * @param message - why it failed or succeeded
+     */
+    public PersonResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 }

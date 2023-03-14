@@ -1,46 +1,57 @@
 package Model;
 
 import java.util.Objects;
+import java.util.UUID;
 
 public class Person {
     /**
      * personID = identifier for person object
-     * firstName and lastName = name of person
-     * gender = can only be f or m
-     * fatherID, motherID, spouseID = personID of another person object
      */
     private String personID;
+    /**
+     * associatedUsername - username associated to person
+     */
     private String associatedUsername;
+    /**
+     * firstName - first name of person
+     */
     private String firstName;
+    /**
+     * lastName - last name of person
+     */
     private String lastName;
+    /**
+     * gender - can only be f or m
+     */
     private String gender;
+    /**
+     * fatherID - optional id of person's father
+     */
     private String fatherID = null;
+    /**
+     * motherID - optional id of person's mother
+     */
     private String motherID = null;
+    /**
+     * spouseID - optional id of person's spouse
+     */
     private String spouseID = null;
 
     /**
-     * constructor for person
-     * checks if gender is f or m == if not, it assigns to null
-     * fatherID, motherID, spouseID can be null
-     * @param associatedUsername
-     * @param firstName
-     * @param lastName
-     * @param gender
+     * @param associatedUsername - username associated to person
+     * @param firstName - first name of person
+     * @param lastName - last name of person
+     * @param gender - can only be f or m
+     * @param fatherID - optional id of person's father
+     * @param motherID - optional id of person's mother
+     * @param spouseID - optional id of person's spouse
      */
-    public Person(String personID, String associatedUsername, String firstName, String lastName, String gender, String fatherID, String motherID, String spouseID) {
+    public Person(String personID,String associatedUsername, String firstName, String lastName, String gender, String fatherID, String motherID, String spouseID) {
         this.personID = personID;
         this.associatedUsername = associatedUsername;
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
-    }
-
-    /**
-     * create string for personID
-     * @return
-     */
-    public String createID() {
-        return null;
     }
 
     public String getPersonID() {

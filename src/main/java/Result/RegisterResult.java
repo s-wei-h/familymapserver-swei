@@ -33,18 +33,16 @@ public class RegisterResult {
      * @param username - user input for new account's username
      * @param personID - ID for new account's accociated person
      * @param success - if user was properly registered
-     * @param message - if registration fails, return error why
      */
-    public RegisterResult(String authtoken, String username, String personID, boolean success, String message) {
+    public RegisterResult(String authtoken, String username, String personID, boolean success) {
         this.success = success;
+        this.authtoken = authtoken;
+        this.username = username;
+        this.personID = personID;
+    }
 
-        if(success) {
-            this.authtoken = authtoken;
-            this.username = username;
-            this.personID = personID;
-        }
-        else {
-            this.message = message;
-        }
+    public RegisterResult(boolean success, String message) {
+        this.success = success;
+        this.message = message;
     }
 }

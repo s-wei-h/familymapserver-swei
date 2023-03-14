@@ -1,12 +1,16 @@
 package Dao;
 
+import Model.AuthToken;
 import Model.Event;
+import Model.Person;
 import Model.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class EventDao {
     private final Connection conn;
@@ -17,7 +21,7 @@ public class EventDao {
 
     /**
      * add event object into the database
-     * @param event
+     * @param event - event object to add into database
      */
     public void insert(Event event) throws DataAccessException {
         //We can structure our string to be similar to a sql command, but if we insert question
@@ -47,7 +51,7 @@ public class EventDao {
 
     /**
      * find event from database with eventID
-     * @param eventID
+     * @param eventID - String of id to search in database
      */
     public Event find(String eventID) throws DataAccessException {
         Event event;
@@ -73,7 +77,121 @@ public class EventDao {
     }
 
     /**
-     * delete event from database
+     * Returns ALL events for ALL family members of the current user.
+     * The current user is determined from the provided auth token.
+     * @param authTokenStr - current user
+     * @return results - json array of event objects
+     */
+    public Event[] findAll(String authTokenStr) throws DataAccessException {
+        List<Event> EventAll = new ArrayList<Event>();
+
+        //find authToken related to authTokenStr
+        AuthTokenDao aDao = new AuthTokenDao(conn);
+        AuthToken authToken = aDao.find(authTokenStr);
+
+        //find user related to authToken
+        UserDao uDao = new UserDao(conn);
+        User currentUser = uDao.find(authToken.getUsername());
+
+        //find person related to user
+        PersonDao pDao = new PersonDao(conn);
+        Person currentPerson = pDao.find(currentUser.getPersonID());
+
+        //find all events related to user
+        Event event;
+        ResultSet rs;
+        String sql = "SELECT * FROM Events WHERE AssociatedUserName = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(2, authToken.getUsername());
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
+                        rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
+                        rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
+                        rs.getInt("Year"));
+                EventAll.add(event);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while finding an event in the database");
+        }
+        //find all events related to user's father
+        if (currentPerson.getFatherID() != null) {
+            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+                stmt.setString(3, currentPerson.getFatherID());
+                rs = stmt.executeQuery();
+                while (rs.next()) {
+                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
+                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
+                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
+                            rs.getInt("Year"));
+                    EventAll.add(event);
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new DataAccessException("Error encountered while finding an event in the database");
+            }
+        }
+
+        //find all events related to user's mother
+        if (currentPerson.getMotherID() != null) {
+            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+                stmt.setString(3, currentPerson.getMotherID());
+                rs = stmt.executeQuery();
+                while (rs.next()) {
+                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
+                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
+                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
+                            rs.getInt("Year"));
+                    EventAll.add(event);
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new DataAccessException("Error encountered while finding an event in the database");
+            }
+        }
+
+        //find all events related to user's spouse
+        if (currentPerson.getSpouseID() != null) {
+            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+                stmt.setString(3, currentPerson.getSpouseID());
+                rs = stmt.executeQuery();
+                while (rs.next()) {
+                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
+                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
+                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
+                            rs.getInt("Year"));
+                    EventAll.add(event);
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+                throw new DataAccessException("Error encountered while finding an event in the database");
+            }
+        }
+
+        Event[] eventArray = (Event[]) EventAll.toArray();
+
+        return eventArray;
+    }
+
+    /**
+     * delete all events associated to username
+     * @param username
+     * @throws DataAccessException
+     */
+    public void userBasedClear(String username) throws DataAccessException {
+        String sql = "DELETE FROM Events WHERE AssociatedUserName = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(3, username);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while clearing events related to username");
+        }
+    }
+
+    /**
+     * delete all event from database
      */
     public void clear() throws DataAccessException {
         String sql = "DELETE FROM Events";
