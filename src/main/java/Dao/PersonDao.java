@@ -39,7 +39,7 @@ public class PersonDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while inserting a person into the database");
+            throw new DataAccessException("Error encountered while inserting a person into the database: " + e.getMessage());
         }
     }
 
@@ -64,45 +64,47 @@ public class PersonDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while finding a person in the database");
+            throw new DataAccessException("Error encountered while finding a person in the database: " + e.getMessage());
         }
     }
 
     public Person[] findAll(String authTokenStr) throws DataAccessException {
-        List<Person> PersonAll = new ArrayList<>();
+       List<Person> PersonAll = new ArrayList<>();
 
         //find authToken related to authTokenStr
         AuthTokenDao aDao = new AuthTokenDao(conn);
         AuthToken authToken = aDao.find(authTokenStr);
 
-        //find user related to authToken
-        UserDao uDao = new UserDao(conn);
-        User currentUser = uDao.find(authToken.getUsername());
-
-        //find person related to user
-        PersonDao pDao = new PersonDao(conn);
-        Person currentPerson = pDao.find(currentUser.getPersonID());
-
         Person person;
-        //find father if there is an ID
-        if(currentPerson.getFatherID() != null) {
-            person = pDao.find(currentPerson.getFatherID());
-            PersonAll.add(person);
-        }
-        //find mother if there is an ID
-        if(currentPerson.getMotherID() != null) {
-            person = pDao.find(currentPerson.getMotherID());
-            PersonAll.add(person);
-        }
-        //find spouse if there is an ID
-        if(currentPerson.getSpouseID() != null) {
-            person = pDao.find(currentPerson.getSpouseID());
-            PersonAll.add(person);
+        ResultSet rs;
+        String sql = "SELECT * FROM Persons WHERE AssociatedUsername = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1,authToken.getUsername());
+            rs = stmt.executeQuery();
+            while (rs.next()) {
+                person = new Person(rs.getString("PersonID"), rs.getString("AssociatedUsername"),
+                        rs.getString("FirstName"),  rs.getString("LastName"), rs.getString("gender"),
+                        rs.getString("FatherID"), rs.getString("MotherID"), rs.getString("SpouseID"));
+                PersonAll.add(person);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while finding a person in the database " + e.getMessage());
         }
 
-        Person[] personArray = (Person[]) PersonAll.toArray();
-
+        Person[] personArray = PersonAll.toArray(new Person[0]);
         return personArray;
+    }
+
+    public void deleteSingle(String personID) throws DataAccessException {
+        String sql = "DELETE FROM Persons WHERE PersonID = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1,personID);
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while deleting one person: " + e.getMessage());
+        }
     }
 
     /**
@@ -113,11 +115,44 @@ public class PersonDao {
     public void userBasedClear(String username) throws DataAccessException {
         String sql = "DELETE FROM Persons WHERE AssociatedUsername = ?;";
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(2,username);
+            stmt.setString(1,username);
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while clearing the person table based on associated username");
+            throw new DataAccessException("Error encountered while clearing the person table based on associated username: " + e.getMessage());
+        }
+    }
+
+    public Integer count(String username) throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Persons WHERE AssociatedUsername = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1,username);
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting rows in persons table based on associated username: " + e.getMessage());
+        }
+    }
+
+    public Integer countAll() throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Persons;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting rows in persons table: " + e.getMessage());
         }
     }
 
@@ -130,7 +165,7 @@ public class PersonDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while clearing the person table");
+            throw new DataAccessException("Error encountered while clearing the person table: " + e.getMessage());
         }
     }
 }

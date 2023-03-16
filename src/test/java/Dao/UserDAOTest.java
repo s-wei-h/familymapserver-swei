@@ -56,13 +56,15 @@ public class UserDAOTest {
 
     @Test
     public void findFail() throws DataAccessException {
-        assertThrows(DataAccessException.class, () -> uDao.find(testUser.getUsername()));
+        User nullUser = uDao.find("not a user");
+        assertNull(nullUser);
+
     }
 
     @Test
     public void clearPass() throws DataAccessException {
         uDao.insert(testUser);
         uDao.clear();
-        assertThrows(DataAccessException.class, () -> uDao.find(testUser.getUsername()));
+        assertEquals(0,uDao.countAll());
     }
 }

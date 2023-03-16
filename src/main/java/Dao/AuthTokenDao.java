@@ -29,7 +29,7 @@ public class AuthTokenDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while inserting a person into the database");
+            throw new DataAccessException("Error encountered while inserting a person into the database: " + e.getMessage());
         }
     }
 
@@ -52,7 +52,7 @@ public class AuthTokenDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while finding an authToken in the database");
+            throw new DataAccessException("Error encountered while finding an authToken in the database: " + e.getMessage());
         }
     }
 
@@ -68,7 +68,7 @@ public class AuthTokenDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while deleting an authToken in the database");
+            throw new DataAccessException("Error encountered while deleting an authToken in the database: " + e.getMessage());
         }
     }
 
@@ -81,7 +81,7 @@ public class AuthTokenDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while clearing the authToken table");
+            throw new DataAccessException("Error encountered while clearing the authToken table: " + e.getMessage());
         }
     }
 }

@@ -1,6 +1,4 @@
 import Handler.*;
-import Request.RegisterRequest;
-import Service.RegisterService;
 import com.sun.net.httpserver.HttpServer;
 
 import java.io.IOException;
@@ -61,15 +59,16 @@ public class Server {
         // forwards the request to the handler for that URL path.
         System.out.println("Creating contexts");
 
+        server.createContext("/", new FileHandler());
         server.createContext("/user/register", new RegisterHandler());
         server.createContext("/user/login", new LoginHandler());
         server.createContext("/clear", new ClearHandler());
         server.createContext("/fill/", new FillHandler());
         server.createContext("/load", new LoadHandler());
         server.createContext("/person/", new PersonHandler());
-        server.createContext("/person", new PersonAllHandler());
+        server.createContext("/person", new PersonsHandler());
         server.createContext("/event/", new EventHandler());
-        server.createContext("/event", new EventAllHandler());
+        server.createContext("/event", new EventsHandler());
 
         // Log message indicating that the HttpServer is about the start accepting
         // incoming client connections.

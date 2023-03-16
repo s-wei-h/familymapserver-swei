@@ -31,8 +31,15 @@ public class EventHandler implements HttpHandler {
                     EventService service = new EventService();
                     EventResult result = service.eventSearch(eventID,authToken);
 
+                    if(result.isSuccess()) {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+
+                    }
+                    else {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_BAD_REQUEST, 0);
+
+                    }
                     Gson gson = new Gson();
-                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
                     Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
                     gson.toJson(result, resBody);
                     resBody.close();

@@ -24,7 +24,7 @@ public class ClearService {
             // Close database connection, COMMIT transaction
             db.closeConnection(true);
             // Create and return SUCCESS Result object
-            ClearResult result = new ClearResult("Database cleared", true);
+            ClearResult result = new ClearResult("Clear succeeded.", true);
             return result;
 
         } catch (Exception ex) {
@@ -32,7 +32,7 @@ public class ClearService {
             // Close database connection, ROLLBACK transaction
             db.closeConnection(false);
             // Create and return FAILURE Result object
-            ClearResult result = new ClearResult("error message", false);
+            ClearResult result = new ClearResult("Error: " + ex.getMessage(), false);
             return result;
         }
     }

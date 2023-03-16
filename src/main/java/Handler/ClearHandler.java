@@ -33,7 +33,13 @@ public class ClearHandler implements HttpHandler {
                 ClearService service = new ClearService();
                 ClearResult result = service.clear();
 
-                exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                if(result.isSuccess()) {
+                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                }
+                else {
+                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_BAD_REQUEST, 0);
+
+                }
                 Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
                 gson.toJson(result, resBody);
                 resBody.close();

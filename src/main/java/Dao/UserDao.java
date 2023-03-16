@@ -61,7 +61,40 @@ public class UserDao {
 
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while finding a user in the database");
+            throw new DataAccessException("Error encountered while finding a user in the database: " + e.getMessage());
+        }
+    }
+
+    public Integer count(String username) throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Users WHERE Username = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1,username);
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting rows in users table based on username: " + e.getMessage());
+        }
+    }
+
+    public Integer countAll() throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Users;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting rows in users table: " + e.getMessage());
         }
     }
 
@@ -74,7 +107,7 @@ public class UserDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();;
-            throw new DataAccessException("Error encountered while clearing the user table");
+            throw new DataAccessException("Error encountered while clearing the user table: " + e.getMessage());
         }
     }
 }

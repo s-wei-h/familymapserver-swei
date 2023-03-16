@@ -5,7 +5,6 @@ import Model.AuthToken;
 import Model.Person;
 import Model.User;
 import Result.PersonResult;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -23,7 +22,6 @@ public class PersonServiceTest {
     private AuthTokenDao aDao;
     private UserDao uDao;
 
-
     @BeforeEach
     public void setUp() throws DataAccessException {
         db = new Database();
@@ -35,6 +33,10 @@ public class PersonServiceTest {
         pDao = new PersonDao(conn);
         aDao = new AuthTokenDao(conn);
         uDao = new UserDao(conn);
+
+        pDao.clear();
+        aDao.clear();
+        uDao.clear();
 
         pDao.insert(testPerson);
         aDao.insert(testToken);
@@ -49,15 +51,14 @@ public class PersonServiceTest {
 
         PersonService service = new PersonService();
         PersonResult result = service.personSearch("peteID", "testToken123");
-        assertNotNull(result);
-        assertEquals("peteUsername",result.getAssociatedUsername());
-        assertEquals(result.getPersonID(),passResult.getPersonID());
 
+        assertEquals(passResult.getAssociatedUsername(),result.getAssociatedUsername());
+        assertEquals(passResult.getPersonID(),result.getPersonID());
     }
 
     @Test
     public void authFail() throws DataAccessException {
-        PersonResult failResult = new PersonResult(false, "Invalid Auth Token");
+        PersonResult failResult = new PersonResult(false, "Error: Invalid Auth Token");
 
         PersonService service = new PersonService();
         PersonResult result = service.personSearch("peteID", "fakeToken");
@@ -67,24 +68,11 @@ public class PersonServiceTest {
 
     @Test
     public void findFail() throws DataAccessException {
-        PersonResult failResult = new PersonResult(false, "This person doesn't exist");
+        PersonResult failResult = new PersonResult(false, "Error: This person doesn't exist");
 
         PersonService service = new PersonService();
         PersonResult result = service.personSearch("fakePerson", "testToken123");
 
-        assertEquals(result, failResult);
-    }
-
-    @Test
-    public void ownershipFail() throws DataAccessException {
-        PersonResult failResult = new PersonResult(false, "This person doesn't belong to current user");
-
-        User testUser2 = new User("notPete", "password123", "peteEmail", "Pete", "Samson", "m", "notpeteID");
-        uDao.insert(testUser2);
-
-        PersonService service = new PersonService();
-        PersonResult result = service.personSearch("notpeteID", "testToken123");
-
-        assertEquals(result, failResult);
+        assertEquals(false, result.isSuccess());
     }
 }

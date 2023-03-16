@@ -26,7 +26,7 @@ public class PersonService {
             if(token == null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                PersonResult result = new PersonResult(false, "Invalid Auth Token");
+                PersonResult result = new PersonResult(false, "Error: Invalid Auth Token");
                 return result;
             }
             //find person with dao
@@ -35,14 +35,14 @@ public class PersonService {
             if(person == null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                PersonResult result = new PersonResult(false, "This person doesn't exist");
+                PersonResult result = new PersonResult(false, "Error: This person doesn't exist");
                 return result;
             }
             //check if person belongs to user
             if(!person.getAssociatedUsername().equals(token.getUsername())) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                PersonResult result = new PersonResult(false, "This person doesn't belong to current user");
+                PersonResult result = new PersonResult(false, "Error: This person doesn't belong to current user");
                 return result;
             }
 
@@ -57,7 +57,7 @@ public class PersonService {
             // Close database connection, ROLLBACK transaction
             db.closeConnection(false);
             // Create and return FAILURE Result object
-            PersonResult result = new PersonResult(false, "error message");
+            PersonResult result = new PersonResult(false, "Error: " + ex.getMessage());
             return result;
         }
     }

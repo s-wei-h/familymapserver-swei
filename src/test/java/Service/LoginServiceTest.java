@@ -2,6 +2,7 @@ package Service;
 
 import Dao.DataAccessException;
 import Dao.Database;
+import Dao.PersonDao;
 import Dao.UserDao;
 import Model.Person;
 import Model.User;
@@ -20,6 +21,7 @@ public class LoginServiceTest {
     private User testUser;
     private Person testPerson;
     private UserDao uDao;
+    private PersonDao pDao;
 
     @BeforeEach
     public void setUp() throws DataAccessException {
@@ -29,13 +31,14 @@ public class LoginServiceTest {
 
         Connection conn = db.getConnection();
         uDao = new UserDao(conn);
+        pDao = new PersonDao(conn);
+        uDao.clear();
+        pDao.clear();
         uDao.insert(testUser);
+        pDao.insert(testPerson);
 
+        db.closeConnection(true);
     }
-
-    @AfterEach
-    public void tearDown() { db.closeConnection(false); }
-
     @Test
     public void pass() throws DataAccessException {
         LoginRequest request = new LoginRequest("peteUsername", "password123");
@@ -43,5 +46,35 @@ public class LoginServiceTest {
         LoginResult result = service.login(request);
 
         assertEquals(testPerson.getPersonID(),result.getPersonID());
+    }
+
+    /**
+     * Test if username doesn't exist in database
+     * @throws DataAccessException
+     */
+    @Test
+    public void failUser() throws DataAccessException {
+        LoginResult failResult = new LoginResult(false, "Error: This user doesn't exist");
+
+        LoginRequest request = new LoginRequest("notUsername", "password123");
+        LoginService service = new LoginService();
+        LoginResult result = service.login(request);
+
+        assertEquals(failResult.getMessage(),result.getMessage());
+    }
+
+    /**
+     * Test if wrong password is checked
+     * @throws DataAccessException
+     */
+    @Test
+    public void failPassword() throws DataAccessException {
+        LoginResult failResult = new LoginResult(false, "Error: Incorrect Password");
+
+        LoginRequest request = new LoginRequest("peteUsername", "password1234");
+        LoginService service = new LoginService();
+        LoginResult result = service.login(request);
+
+        assertEquals(failResult.getMessage(),result.getMessage());
     }
 }

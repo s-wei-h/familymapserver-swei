@@ -1,6 +1,6 @@
 package GenerateTree;
 
-enum Gender {
-    FEMALE,
-    MALE
+public enum Gender {
+    f,
+    m
 }

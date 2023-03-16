@@ -71,7 +71,7 @@ public class EventDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while finding an event in the database");
+            throw new DataAccessException("Error encountered while finding an event in the database: " + e.getMessage());
         }
 
     }
@@ -102,7 +102,7 @@ public class EventDao {
         ResultSet rs;
         String sql = "SELECT * FROM Events WHERE AssociatedUserName = ?;";
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(2, authToken.getUsername());
+            stmt.setString(1, authToken.getUsername());
             rs = stmt.executeQuery();
             while (rs.next()) {
                 event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
@@ -113,63 +113,10 @@ public class EventDao {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while finding an event in the database");
-        }
-        //find all events related to user's father
-        if (currentPerson.getFatherID() != null) {
-            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-                stmt.setString(3, currentPerson.getFatherID());
-                rs = stmt.executeQuery();
-                while (rs.next()) {
-                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
-                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
-                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
-                            rs.getInt("Year"));
-                    EventAll.add(event);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-                throw new DataAccessException("Error encountered while finding an event in the database");
-            }
+            throw new DataAccessException("Error encountered while finding multiple events in the database: " + e.getMessage());
         }
 
-        //find all events related to user's mother
-        if (currentPerson.getMotherID() != null) {
-            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-                stmt.setString(3, currentPerson.getMotherID());
-                rs = stmt.executeQuery();
-                while (rs.next()) {
-                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
-                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
-                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
-                            rs.getInt("Year"));
-                    EventAll.add(event);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-                throw new DataAccessException("Error encountered while finding an event in the database");
-            }
-        }
-
-        //find all events related to user's spouse
-        if (currentPerson.getSpouseID() != null) {
-            try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-                stmt.setString(3, currentPerson.getSpouseID());
-                rs = stmt.executeQuery();
-                while (rs.next()) {
-                    event = new Event(rs.getString("EventID"), rs.getString("AssociatedUsername"),
-                            rs.getString("PersonID"), rs.getFloat("Latitude"), rs.getFloat("Longitude"),
-                            rs.getString("Country"), rs.getString("City"), rs.getString("EventType"),
-                            rs.getInt("Year"));
-                    EventAll.add(event);
-                }
-            } catch (SQLException e) {
-                e.printStackTrace();
-                throw new DataAccessException("Error encountered while finding an event in the database");
-            }
-        }
-
-        Event[] eventArray = (Event[]) EventAll.toArray();
+        Event[] eventArray =  EventAll.toArray(new Event[0]);
 
         return eventArray;
     }
@@ -182,11 +129,44 @@ public class EventDao {
     public void userBasedClear(String username) throws DataAccessException {
         String sql = "DELETE FROM Events WHERE AssociatedUserName = ?;";
         try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(3, username);
+            stmt.setString(1, username);
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while clearing events related to username");
+            throw new DataAccessException("Error encountered while clearing events related to username: " + e.getMessage());
+        }
+    }
+
+    public Integer count(String username) throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Events WHERE AssociatedUsername = ?;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            stmt.setString(1,username);
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting the events table based on associated username: " + e.getMessage());
+        }
+    }
+
+    public Integer countAll() throws DataAccessException {
+        Integer count = 0;
+        ResultSet rs;
+        String sql = "SELECT COUNT(*) FROM Events;";
+        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+            rs = stmt.executeQuery();
+            if (rs.next()) {
+                count = Integer.parseInt(rs.getString("COUNT(*)"));
+            }
+            return count;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new DataAccessException("Error encountered while counting all in events table: " + e.getMessage());
         }
     }
 
@@ -199,7 +179,7 @@ public class EventDao {
             stmt.executeUpdate();
         } catch (SQLException e) {
             e.printStackTrace();
-            throw new DataAccessException("Error encountered while clearing the event table");
+            throw new DataAccessException("Error encountered while clearing the event table: "+ e.getMessage());
         }
     }
 }

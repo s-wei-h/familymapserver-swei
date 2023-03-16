@@ -1,7 +1,7 @@
 package Handler;
 
-import Result.PersonAllResult;
-import Service.PersonAllService;
+import Result.EventsResult;
+import Service.EventsService;
 import com.google.gson.Gson;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
@@ -12,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.net.HttpURLConnection;
 
-public class PersonAllHandler implements HttpHandler {
+public class EventsHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange exchange) throws IOException {
         boolean success = false;
@@ -23,19 +23,23 @@ public class PersonAllHandler implements HttpHandler {
                 if (reqHeaders.containsKey("Authorization")) {
                     String authToken = reqHeaders.getFirst("Authorization");
 
-                    PersonAllService service = new PersonAllService();
-                    PersonAllResult result = service.personAll(authToken);
+                    EventsService service = new EventsService();
+                    EventsResult result = service.events(authToken);
 
                     Gson gson = new Gson();
-                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                    if(result.isSuccess()) {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                    }
+                    else {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_BAD_REQUEST, 0);
+                    }
                     Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
                     gson.toJson(result, resBody);
                     resBody.close();
                     success = true;
                 }
             }
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             // Some kind of internal error has occurred inside the server (not the
             // client's fault), so we return an "internal server error" status code
             // to the client.

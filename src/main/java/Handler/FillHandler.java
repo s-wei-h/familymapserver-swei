@@ -1,5 +1,6 @@
 package Handler;
 
+import Request.FillRequest;
 import Request.LoginRequest;
 import Result.FillResult;
 import Result.LoginResult;
@@ -9,7 +10,6 @@ import com.google.gson.Gson;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import passoffrequest.FillRequest;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -37,8 +37,9 @@ public class FillHandler implements HttpHandler {
 
                 Gson gson = new Gson();
 
+                FillRequest request = new FillRequest(username,generations);
                 FillService service = new FillService();
-                FillResult result = service.fill(username, generations);
+                FillResult result = service.fill(request);
 
                 exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
                 Writer resBody = new OutputStreamWriter(exchange.getResponseBody());

@@ -1,7 +1,12 @@
 package Service;
 
+import Dao.AuthTokenDao;
 import Dao.Database;
 import Dao.UserDao;
+import GenerateTree.Gender;
+import GenerateTree.GeneratePerson;
+import Model.AuthToken;
+import Model.Person;
 import Model.User;
 import Request.RegisterRequest;
 import Result.RegisterResult;
@@ -25,20 +30,36 @@ public class RegisterService {
             if(uDao.find(request.getUsername()) != null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                RegisterResult result = new RegisterResult(false, "username already exists");
+                RegisterResult result = new RegisterResult(false, "Error: username already exists");
                 return result;
             }
 
-            // Use DAOs to make new user
-            User newUser = new User(util.createID(), request.getUsername(), request.getPassword(), request.getEmail(), request.getFirstName(), request.getLastName(), request.getGender());
+            // Use DAO to add new user
+            User newUser = new User(request.getUsername(), request.getPassword(), request.getEmail(), request.getFirstName(), request.getLastName(), request.getGender(),util.createID());
             new UserDao(db.getConnection()).insert(newUser);
 
+            // Use DAOs to add new authtoken
+            AuthToken newToken = new AuthToken(util.createID(), newUser.getUsername());
+            new AuthTokenDao(db.getConnection()).insert(newToken);
+
+            //check request gender to fit in enum
+            Gender gender = null;
+            if(request.getGender().equals("f")) {
+                gender = Gender.f;
+            }
+            else {
+                gender = Gender.m;
+            }
+
             //generate 4 generations of ancestor data
+            //generate tree
+            GeneratePerson generatePerson = new GeneratePerson();
+            Person generatedPerson = generatePerson.generatePersonStart(db.getConnection(),request.getFirstName(),request.getLastName(), newUser.getPersonID(), gender,4,request.getUsername(),2000);
 
             // Close database connection, COMMIT transaction
             db.closeConnection(true);
             // Create and return SUCCESS Result object
-            RegisterResult result = new RegisterResult(util.createID(), newUser.getUsername(), newUser.getPersonID(), true);
+            RegisterResult result = new RegisterResult(newToken.getAuthtoken(), newUser.getUsername(), newUser.getPersonID(), true);
             return result;
         }
         catch (Exception ex) {
@@ -46,7 +67,7 @@ public class RegisterService {
             // Close database connection, ROLLBACK transaction
             db.closeConnection(false);
             // Create and return FAILURE Result object
-            RegisterResult result = new RegisterResult(false, "error message");
+            RegisterResult result = new RegisterResult(false, "Error: " + ex.getMessage());
             return result;
         }
 

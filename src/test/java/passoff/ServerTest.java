@@ -599,6 +599,7 @@ public class ServerTest {
             //We are calling the register api for a user named sheila
             RegisterResult registerResult = proxy.register(host, port, registerRequest);
             //We are calling the get all persons api for the user sheila (we are using the authtoken variable from registerResult on the previous line)
+            String authToken = registerResult.getAuthtoken();
             PersonsResult personsResult = proxy.persons(host, port, registerResult.getAuthtoken());
             //We are calling the get all events api for the user sheila (we are using the authtoken variable from the same registerResult)
             EventsResult eventsResult = proxy.events(host, port, registerResult.getAuthtoken());
@@ -947,6 +948,7 @@ public class ServerTest {
             //Checks to see if the list of events associated with sheila from loadRequest matches the list of events from eventsResult
             assertEquals(loadRequest.getEvents(loginRequest.getUsername()), eventsResult.getDataAsSet(), SHEILA.getUsername() + "'s events do not match those loaded");
             //Checks to see if the list of people associated with sheila from loadRequest matches the list of people from personsResult
+            Person[] testPerson = loadRequest.getPersons(loginRequest.getUsername()).toArray(new Person[0]);
             assertEquals(loadRequest.getPersons(loginRequest.getUsername()), personsResult.getDataAsSet(), SHEILA.getUsername() + "'s persons do not match those loaded");
             //We are calling the login api for a user named patrick
             loginResult = proxy.login(host, port, loginRequest2);

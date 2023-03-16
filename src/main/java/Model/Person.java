@@ -52,6 +52,9 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gender = gender;
+        this.fatherID = fatherID;
+        this.motherID = motherID;
+        this.spouseID = spouseID;
     }
 
     public String getPersonID() {

@@ -1,300 +1,1889 @@
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persistence Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler Default Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Death Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Invalid Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Load Valid Info Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Valid Fill Relationships Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Invalid Password Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Events Bad Auth Token Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Clear Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Bad Auth Token Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Marriage Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Wrong Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Bad Auth Token Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 2 Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 4 Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 5 Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persons Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Load Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Re-Register Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Wrong Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Birth Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Events Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Valid Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Register Valid New Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler 404 Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persons Bad Auth Token Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill Does Not Affect Other Users Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Valid Model.User Test...
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Proxy: 	Clear called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Post without Request Body called
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connection opened to server
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Request method set to POST
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Setting Do Output to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Do Output set to true
-[Mon Mar 13 00:22:52 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persistence Test...
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:08 MDT 2023] - INFO passoff.ServerTest: 	Running Persistence Test...
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:08 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 39d10150-c97d-423d-a158-a40ddff71718
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 39d10150-c97d-423d-a158-a40ddff71718
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 39d10150-c97d-423d-a158-a40ddff71718
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 39d10150-c97d-423d-a158-a40ddff71718
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 46cd71e5-312e-4fbe-98f0-60aec436039a
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 46cd71e5-312e-4fbe-98f0-60aec436039a
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 46cd71e5-312e-4fbe-98f0-60aec436039a
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 46cd71e5-312e-4fbe-98f0-60aec436039a
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler Default Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running File Handler Default Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	File called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get without Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Death Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Realistic Fill Death Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token f05123af-bd2c-4c0a-b59c-9a6ec6255ab1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to f05123af-bd2c-4c0a-b59c-9a6ec6255ab1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token f05123af-bd2c-4c0a-b59c-9a6ec6255ab1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to f05123af-bd2c-4c0a-b59c-9a6ec6255ab1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Invalid Model.User Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Login Invalid Model.User Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Load Valid Info Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Load Valid Info Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token b219be73-494e-494f-8b6a-0e01a419935c
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to b219be73-494e-494f-8b6a-0e01a419935c
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token b219be73-494e-494f-8b6a-0e01a419935c
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to b219be73-494e-494f-8b6a-0e01a419935c
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 5cec68c4-d61a-42a5-aa72-c7c2080e0209
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 5cec68c4-d61a-42a5-aa72-c7c2080e0209
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 5cec68c4-d61a-42a5-aa72-c7c2080e0209
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 5cec68c4-d61a-42a5-aa72-c7c2080e0209
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Valid Fill Relationships Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Valid Fill Relationships Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token eda8c091-2747-45f0-8dfb-2721501f1e7f
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to eda8c091-2747-45f0-8dfb-2721501f1e7f
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Invalid Password Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Login Invalid Password Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Events Bad Auth Token Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Events Bad Auth Token Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token bad auth
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to bad auth
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Clear Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Clear Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 57a4fab6-4c45-40b6-8c14-0a4d5ab8c4b1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 57a4fab6-4c45-40b6-8c14-0a4d5ab8c4b1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token 57a4fab6-4c45-40b6-8c14-0a4d5ab8c4b1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to 57a4fab6-4c45-40b6-8c14-0a4d5ab8c4b1
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Bad Auth Token Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Event Bad Auth Token Test...
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Proxy: 	Event called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Adding Auth token bad auth
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Auth token set to bad auth
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:16 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Marriage Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Realistic Fill Marriage Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 03720f64-9a19-40de-95ad-4d012089a392
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 03720f64-9a19-40de-95ad-4d012089a392
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 03720f64-9a19-40de-95ad-4d012089a392
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 03720f64-9a19-40de-95ad-4d012089a392
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Wrong Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Person Wrong Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Person called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token e9c94d41-4eb1-45de-9d65-972303210a8e
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to e9c94d41-4eb1-45de-9d65-972303210a8e
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Bad Auth Token Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Person Bad Auth Token Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Person called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token bad auth
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to bad auth
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Event Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Event called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 67f448f3-c731-4e60-ad9c-730162979a72
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 67f448f3-c731-4e60-ad9c-730162979a72
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Event called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 67f448f3-c731-4e60-ad9c-730162979a72
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 67f448f3-c731-4e60-ad9c-730162979a72
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 2 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Fill 2 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Fill called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 4 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Fill 4 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Fill called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill 5 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Fill 5 Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Fill called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persons Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Persons Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 18329805-71b2-4b3a-a6d7-fa587ab68999
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 18329805-71b2-4b3a-a6d7-fa587ab68999
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Load Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Load Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Re-Register Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Re-Register Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Event Wrong Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Event Wrong Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Event called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token fe861afa-d2df-407c-a6fb-1b5197bb0d25
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to fe861afa-d2df-407c-a6fb-1b5197bb0d25
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Realistic Fill Birth Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Realistic Fill Birth Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token f70bdb86-13cf-478d-8ea2-32ca456c248c
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to f70bdb86-13cf-478d-8ea2-32ca456c248c
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token f70bdb86-13cf-478d-8ea2-32ca456c248c
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to f70bdb86-13cf-478d-8ea2-32ca456c248c
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Events Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Events Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token d8ae9cb8-5da5-43b6-b775-5a90625fa177
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to d8ae9cb8-5da5-43b6-b775-5a90625fa177
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Model.Person Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Model.Person Valid Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Person called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token f92400d2-8cc2-4929-8d58-5e3d4f8406a0
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to f92400d2-8cc2-4929-8d58-5e3d4f8406a0
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Register Valid New Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Register Valid New Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler 404 Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running File Handler 404 Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	File called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get without Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 404 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up File Handler Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running File Handler Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	File called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get without Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Persons Bad Auth Token Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Persons Bad Auth Token Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token bad auth
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to bad auth
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 400 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Fill Does Not Affect Other Users Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Fill Does Not Affect Other Users Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Load called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Fill called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Persons called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 2c640c32-d763-4a79-94c2-acf4e4073855
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 2c640c32-d763-4a79-94c2-acf4e4073855
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Events called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Get with Auth Token called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to GET
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to false
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Adding Auth token 2c640c32-d763-4a79-94c2-acf4e4073855
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Auth token set to 2c640c32-d763-4a79-94c2-acf4e4073855
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Setting up Login Valid Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Clear called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post without Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO passoff.ServerTest: 	Running Login Valid Model.User Test...
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Register called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Proxy: 	Login called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Post with Request Body called
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Attempting to open connection to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connection opened to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting passoffrequest method to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request method set to POST
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Setting Do Output to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Do Output set to true
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connecting to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Connected to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Opening output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Writing passoffrequest to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Request written to server output stream
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Closing output stream to server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Output stream to server closed
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting response code from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Response code 200 returned
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Getting input stream from server
+[Thu Mar 16 09:54:17 MDT 2023] - INFO client.Client: 	Reading input stream into a string

@@ -1,8 +1,7 @@
 package Handler;
 
-import Result.EventAllResult;
-import Result.EventResult;
-import Service.EventAllService;
+import Result.PersonsResult;
+import Service.PersonsService;
 import com.google.gson.Gson;
 import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
@@ -13,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.net.HttpURLConnection;
 
-public class EventAllHandler implements HttpHandler {
+public class PersonsHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange exchange) throws IOException {
         boolean success = false;
@@ -24,18 +23,24 @@ public class EventAllHandler implements HttpHandler {
                 if (reqHeaders.containsKey("Authorization")) {
                     String authToken = reqHeaders.getFirst("Authorization");
 
-                    EventAllService service = new EventAllService();
-                    EventAllResult result = service.eventAll(authToken);
+                    PersonsService service = new PersonsService();
+                    PersonsResult result = service.persons(authToken);
 
+                    if(result.isSuccess()) {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                    }
+                    else {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_BAD_REQUEST, 0);
+                    }
                     Gson gson = new Gson();
-                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
                     Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
                     gson.toJson(result, resBody);
                     resBody.close();
                     success = true;
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             // Some kind of internal error has occurred inside the server (not the
             // client's fault), so we return an "internal server error" status code
             // to the client.

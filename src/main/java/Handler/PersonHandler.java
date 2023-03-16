@@ -32,8 +32,14 @@ public class PersonHandler implements HttpHandler {
                     PersonService service = new PersonService();
                     PersonResult result = service.personSearch(username, authToken);
 
+                    if(result.isSuccess()) {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
+                    }
+                    else {
+                        exchange.sendResponseHeaders(HttpURLConnection.HTTP_BAD_REQUEST, 0);
+
+                    }
                     Gson gson = new Gson();
-                    exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
                     Writer resBody = new OutputStreamWriter(exchange.getResponseBody());
                     gson.toJson(result, resBody);
                     resBody.close();

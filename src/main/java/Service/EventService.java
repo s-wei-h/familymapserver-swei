@@ -27,7 +27,7 @@ public class EventService {
             if(token == null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                EventResult result = new EventResult(false, "Invalid Auth Token");
+                EventResult result = new EventResult(false, "Error: Invalid Auth Token");
                 return result;
             }
             //find event with dao
@@ -36,14 +36,14 @@ public class EventService {
             if(event == null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                EventResult result = new EventResult(false, "This event doesn't exist");
+                EventResult result = new EventResult(false, "Error: This event doesn't exist");
                 return result;
             }
             //check if event belongs to current user
             if(!event.getAssociatedUsername().equals(token.getUsername())) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                EventResult result = new EventResult(false, "This Event doesn't belong to current user");
+                EventResult result = new EventResult(false, "Error: This Event doesn't belong to current user");
                 return result;
             }
             // Close database connection, COMMIT transaction
@@ -57,7 +57,7 @@ public class EventService {
             // Close database connection, ROLLBACK transaction
             db.closeConnection(false);
             // Create and return FAILURE Result object
-            EventResult result = new EventResult(false, "error message");
+            EventResult result = new EventResult(false, "Error: " + ex.getMessage());
             return result;
         }
     }

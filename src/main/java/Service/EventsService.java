@@ -2,16 +2,17 @@ package Service;
 
 import Dao.AuthTokenDao;
 import Dao.Database;
-import Dao.PersonDao;
+import Dao.EventDao;
 import Model.AuthToken;
-import Model.Person;
-import Result.PersonAllResult;
+import Model.Event;
+import Result.EventsResult;
 
-public class PersonAllService {
+public class EventsService {
     /**
-     * @return PersonAllResult - data[], success, message
+     * return all events for all family members
+     * @return EventAllResult - data (json array of events), success
      */
-    public PersonAllResult personAll(String authToken) {
+    public EventsResult events(String authToken) {
         Database db = new Database();
         try {
             // Open database connection
@@ -19,25 +20,25 @@ public class PersonAllService {
             //find token
             AuthToken token = new AuthTokenDao(db.getConnection()).find(authToken);
             //if token not found, return result failure
-            if(token == null) {
+            if (token == null) {
                 db.closeConnection(false);
                 // Create and return FAILURE Result object
-                PersonAllResult result = new PersonAllResult(false, "Invalid Auth Token");
+                EventsResult result = new EventsResult(false, "Error: Invalid Auth Token");
                 return result;
             }
-            //find person all with dao
-            Person[] allPerson = new PersonDao(db.getConnection()).findAll(authToken);
+            //find event all with dao
+            Event[] allEvent = new EventDao(db.getConnection()).findAll(authToken);
             // Close database connection, COMMIT transaction
             db.closeConnection(true);
             // Create and return SUCCESS Result object
-            PersonAllResult result = new PersonAllResult(allPerson, true);
+            EventsResult result = new EventsResult(allEvent, true);
             return result;
         } catch (Exception ex) {
             ex.printStackTrace();
             // Close database connection, ROLLBACK transaction
             db.closeConnection(false);
             // Create and return FAILURE Result object
-            PersonAllResult result = new PersonAllResult(false, "error message");
+            EventsResult result = new EventsResult(false, "Error: " + ex.getMessage());
             return result;
         }
     }
